@@ -1,0 +1,113 @@
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(to left, #010101, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000, #EB5757);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+/*.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}*/
+
+/*.count-particles{
+  border-radius: 0 0 3px 3px;
+}*/
+
+//.over {
+  z-index:1;
+
+}
+
+//canvas {
+    display:block;
+    background: -webkit-linear-gradient(to left, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000, #EB5757);
+    position: fixed;
+    z-index: -1;
+}
+.over {
+    position: absolute;
+    color: black;
+    font-size: 600%;
+font-family: 'Zilla Slab Highlight', cursive;
+padding-left: 25%;
+padding:auto;
+padding-top: 15%;
+}
+#tagline {
+	font-size: 40%;
+	padding-left: 10%;
+	padding: auto;
+}
+.butt {
+	font-size: 40%;
+	padding: 10%;
+	padding: auto;
+	padding-left: 30%;
+  color: black;
+  text-decoration-color: black;
+
+}
+
+.butt:visited {
+color: black ;
+text-decoration-color: black;
+
+}
+
+a{
+    color:#000;
+    text-decoration:none;
+}
+
+a.visited{
+    color:#205081;
+}
